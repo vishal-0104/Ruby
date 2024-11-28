@@ -3,7 +3,7 @@ def factorial(n)
   n * factorial(n - 1)
 end
 
-puts "Enter a number:"
+print "Enter a number:"
 num = gets.chomp.to_i
 puts "Factorial of #{num} is #{factorial(num)}"
 
